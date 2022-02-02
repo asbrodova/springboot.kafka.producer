@@ -1,4 +1,4 @@
-package dev.asbrodova.springboot.kafka.producer.model;
+package dev.asbrodova.springboot.kafka.model;
 
 public class Message {
 

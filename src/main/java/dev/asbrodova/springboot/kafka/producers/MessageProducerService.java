@@ -1,6 +1,6 @@
-package dev.asbrodova.springboot.kafka.producer.producers;
+package dev.asbrodova.springboot.kafka.producers;
 
-import dev.asbrodova.springboot.kafka.producer.model.Message;
+import dev.asbrodova.springboot.kafka.model.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MessageProducerService {
 
-    private static final String TOPIC = "Messages";
+    private static final String TOPIC = "messages";
 
     private Logger logger = LoggerFactory.getLogger(MessageProducerService.class);
 

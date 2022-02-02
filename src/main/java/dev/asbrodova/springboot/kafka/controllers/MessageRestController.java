@@ -1,7 +1,7 @@
-package dev.asbrodova.springboot.kafka.producer.controllers;
+package dev.asbrodova.springboot.kafka.controllers;
 
-import dev.asbrodova.springboot.kafka.producer.model.Message;
-import dev.asbrodova.springboot.kafka.producer.producers.MessageProducerService;
+import dev.asbrodova.springboot.kafka.model.Message;
+import dev.asbrodova.springboot.kafka.producers.MessageProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
